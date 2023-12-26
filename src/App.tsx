@@ -1,5 +1,6 @@
 import React from 'react'
 
+import { FirstSection } from './components/first-section/first-section'
 import { Header } from './components/header/header'
 import { Layout } from './components/layout/layout'
 
@@ -14,6 +15,7 @@ export const App: React.FC = () => {
   return (
     <Layout>
       <Header links={links} />
+      <FirstSection />
     </Layout>
   )
 }

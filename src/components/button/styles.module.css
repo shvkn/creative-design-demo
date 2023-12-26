@@ -1,0 +1,20 @@
+.button {
+  padding: 0;
+  margin: 0;
+
+  cursor: pointer;
+
+  background-color: var(--colors-background-white);
+  border: none;
+}
+
+.buttonText {
+  padding: 13px 19px;
+
+  font-family: var(--fonts-main);
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  color: var(--colors-font-black);
+}

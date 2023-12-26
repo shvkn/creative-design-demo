@@ -1,0 +1,80 @@
+.firstSectionContainer {
+  position: relative;
+
+  display: flex;
+
+  min-height: 865px;
+  padding: 0;
+  margin: 0;
+}
+
+.firstSectionContainer::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  display: block;
+
+  width: 510px;
+  height: 536px;
+
+  content: '';
+
+  background: url(./assets/rectangle-left.png) left center no-repeat;
+}
+
+.firstSectionContainer::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  display: block;
+
+  width: 527px;
+  height: 533px;
+
+  content: '';
+
+  background: url(./assets/rectangle-right.png) right center no-repeat;
+}
+
+.heading {
+  padding: 0;
+  margin: 0;
+
+  font-family: var(--fonts-accent);
+  font-size: 309px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 0.8;
+  color: var(--colors-font-white);
+  text-align: center;
+}
+
+.caption {
+  max-width: 678px;
+  padding: 38px 0;
+  margin: 0;
+
+  font-family: var(--fonts-main);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: var(--colors-font-white);
+}
+
+.contentWrapper {
+  position: relative;
+  z-index: 10;
+
+  display: flex;
+
+  flex-direction: column;
+
+  margin: 0 100px;
+}
+
+.button {
+  margin: auto;
+}
