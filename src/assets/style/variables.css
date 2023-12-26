@@ -1,0 +1,7 @@
+:root {
+  --colors-background: #000;
+  --colors-font-white: #fff;
+
+  --fonts-main: Inter, Arial, sans-serif;
+  --fonts-accent: Playfair, Times, serif;
+}

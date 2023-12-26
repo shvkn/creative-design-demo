@@ -1,0 +1,36 @@
+.headerContainer {
+  display: flex;
+
+  justify-content: space-between;
+
+  padding: 80px 110px 106px;
+}
+
+.linksContainer {
+  display: flex;
+
+  gap: 57px;
+
+  align-items: center;
+  justify-content: center;
+
+  padding: 0;
+  margin: 0;
+
+  list-style: none;
+}
+
+.link {
+  font-family: var(--fonts-main);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: var(--colors-font-white);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.logo {
+  font-weight: 700;
+}
